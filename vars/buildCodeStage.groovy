@@ -1,8 +1,5 @@
-def call(buildCodeStage) {
-    sh """
-        rm -rf node_modules
-        npm install
-    """
+def call(preperation) {
+    sh 'wellcome to my jenkins demo class'
 }
 
 
