@@ -1,5 +1,7 @@
-def call(preperation) {
-    sh 'wellcome to my jenkins demo class'
+def call() {
+    stage('preparation') {
+        steps {
+            sh 'echo "Welcome to my Jenkins demo class"'
+        }
+    }
 }
-
-
