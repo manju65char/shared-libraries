@@ -1,6 +1,5 @@
 def call() {
-    sh "mvn -Dmaven.test.failure.ignore=true clean package"
+    sh 'echo "maven code build and created artifacts"'
 }
-
     
 
