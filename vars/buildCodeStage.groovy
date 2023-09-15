@@ -1,5 +1,5 @@
 def call() {
-    sh 'echosdsddsffsf "maven code build and created artifacts"'
-}sd
+    sh 'echo "maven code build and created artifacts"'
+}
     
 
