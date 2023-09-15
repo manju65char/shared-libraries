@@ -1,3 +1,3 @@
 def call() {
-    sh 'echo "building the image "'
+    sh 'echoghh "building the image "'
 }
